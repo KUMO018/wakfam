@@ -1,0 +1,90 @@
+header{
+    background-color:inherit;
+    width:%;
+    padding:0px;
+}
+.menu{
+    width:auto;
+    background-color:;
+    position:fixed;
+    z-index: 2;
+}
+.dp{
+    display:inline-block;
+}
+.dpt{
+    background-color:green;
+    color:red;
+}
+.dpc{
+    min-width:%;
+    z-index:1;
+    background-color:grey;
+    display:none;
+}
+.dpc a{
+    color:#333;
+    display:block;
+}
+.dp:hover .dpt{
+    background-color:yellow;
+}
+.dp:hover .dpc{
+    display:block;
+}
+.menu img{
+    width:30%;
+    height:10%;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+a:hover{
+    background-color: cyan;
+}
+
+@keyframes pics{
+    0%{background-image:url("youtube1.jpg");}
+    50%{background-image:url("facebook1.jpg");}
+    100%{background-image:url("tiktok1.jpg");}
+}
+.pics img{
+    width:10px;
+    height:30px;
+}
+.pics{
+   height:400px;
+    width:100%;
+    padding:0% 20%;
+    background-color:;
+    animation-name: pics;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-t   
+}
+.kati{
+    text-align: center;
+    
+}
+.head{
+    text-align: center;
+    color:red;
+}
+footer{
+   text-align: center;
+}
+.login{
+  
+   padding:0% 40%;
+   align-items:center;
+   widh:50;
+   padding: ;
+}
+fieldset{
+   width:0%;
+   background-color: silver;
+}
